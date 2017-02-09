@@ -21,13 +21,13 @@ def get_flight_arrivals(airport, year, month, day, hour):
 
 get_flight_arrivals('JFK', 2017, 2, 10, 0)
 
-# def postgres_connection():
-#     try:
-#         connection = psycopg2.connect("dbname={} user={} host={} password={}".format(DATABASE, USER, HOST, PASSWORD))
-#     except:
-#         print("Unable to connect database. Please try again!")
-#
-#     return connection;
-#
-# pg_connection = postgres_connection()
-# cursor = pg_connection.cursor()
+def postgres_connection():
+    try:
+        connection = psycopg2.connect("dbname={} user={} host={} password={}".format(DATABASE, USER, HOST, PASSWORD))
+    except:
+        print("Unable to connect database. Please try again!")
+
+    return connection;
+
+pg_connection = postgres_connection()
+cursor = pg_connection.cursor()

@@ -1,0 +1,21 @@
+CREATE TABLE revmax_flight_arrival (
+  id serial NOT NULL,
+  type varchar(10),
+  carrier_fs_code varchar(2),
+  flight_number varchar(3),
+  departure_airport_fs_code varchar(3),
+  arrival_airport_fs_code varchar(3),
+  stops int,
+  departure_terminal varchar(2),
+  arrival_terminal varchar(2),
+  departure_time timestamp without time zone ,
+  arrival_time timestamp without time zone ,
+  flight_equipment_iata_code varchar(3),
+  service_type varchar(2),
+  service_classes varchar(20)[],
+  traffic_restrictions varchar(20)[],
+  complete_response jsonb,
+  created_at date,
+  updated_at date,
+  CONSTRAINT pk_revmax_flight_arrival PRIMARY KEY(id)
+);
