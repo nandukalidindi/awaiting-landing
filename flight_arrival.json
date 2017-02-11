@@ -1,1 +1,1808 @@
-{'appendix': {'airlines': [{'phoneNumber': '08457-567-567', 'icao': 'AAL', 'active': True, 'fs': 'AA', 'name': 'American Airlines', 'iata': 'AA'}, {'phoneNumber': '1-888-2FLY TAM', 'icao': 'TAM', 'active': True, 'fs': 'JJ', 'name': 'LATAM Airlines Brasil', 'iata': 'JJ'}, {'phoneNumber': '+1 877 777 2827', 'icao': 'QTR', 'active': True, 'fs': 'QR', 'name': 'Qatar Airways', 'iata': 'QR'}, {'phoneNumber': '800 777 3999', 'icao': 'UAE', 'active': True, 'fs': 'EK', 'name': 'Emirates', 'iata': 'EK'}, {'phoneNumber': '1-800-221-1212', 'icao': 'DAL', 'active': True, 'fs': 'DL', 'name': 'Delta Air Lines', 'iata': 'DL'}, {'active': True, 'name': 'Virgin Australia', 'iata': 'VA', 'icao': 'VOZ', 'fs': 'VA'}, {'phoneNumber': '03-10-2007', 'icao': 'CHH', 'active': True, 'fs': 'HU', 'name': 'Hainan Airlines', 'iata': 'HU'}, {'phoneNumber': '+27 11 978 5313', 'icao': 'SAA', 'active': True, 'fs': 'SA', 'name': 'South African Airways', 'iata': 'SA'}, {'phoneNumber': '1-800-252-7522', 'icao': 'ASA', 'active': True, 'fs': 'AS', 'name': 'Alaska Airlines', 'iata': 'AS'}, {'phoneNumber': '1-800-538-2583', 'icao': 'JBU', 'active': True, 'fs': 'B6', 'name': 'JetBlue Airways', 'iata': 'B6'}, {'active': True, 'name': 'Etihad Airways', 'iata': 'EY', 'icao': 'ETD', 'fs': 'EY'}, {'phoneNumber': '+61 2 9691 3636', 'icao': 'QFA', 'active': True, 'fs': 'QF', 'name': 'Qantas', 'iata': 'QF'}, {'phoneNumber': '1 (305) 670 9999', 'icao': 'LAN', 'active': True, 'fs': 'LA', 'name': 'LATAM Airlines', 'iata': 'LA'}, {'phoneNumber': '1-800-223-5730', 'icao': 'AZA', 'active': True, 'fs': 'AZ', 'name': 'Alitalia', 'iata': 'AZ'}, {'phoneNumber': '1-800-367-5320', 'icao': 'HAL', 'active': True, 'fs': 'HA', 'name': 'Hawaiian Airlines', 'iata': 'HA'}, {'phoneNumber': '1-800-438-5000', 'icao': 'KAL', 'active': True, 'fs': 'KE', 'name': 'Korean Air', 'iata': 'KE'}, {'active': True, 'name': 'Air Tahiti Nui', 'iata': 'TN', 'icao': 'THT', 'fs': 'TN'}, {'active': True, 'name': 'Volaris', 'iata': 'Y4', 'icao': 'VOI', 'fs': 'Y4'}, {'phoneNumber': '+603 7843 3000', 'icao': 'MAS', 'active': True, 'fs': 'MH', 'name': 'Malaysia Airlines', 'iata': 'MH'}, {'active': True, 'name': 'Virgin Atlantic', 'iata': 'VS', 'icao': 'VIR', 'fs': 'VS'}, {'phoneNumber': '1-800-AIRWAYS', 'icao': 'BAW', 'active': True, 'fs': 'BA', 'name': 'British Airways', 'iata': 'BA'}], 'airports': [{'street2': '', 'longitude': -118.408279, 'active': True, 'cityCode': 'LAX', 'stateCode': 'CA', 'iata': 'LAX', 'faa': 'LAX', 'street1': 'One World Way', 'timeZoneRegionName': 'America/Los_Angeles', 'countryCode': 'US', 'latitude': 33.943399, 'fs': 'LAX', 'regionName': 'North America', 'icao': 'KLAX', 'elevationFeet': 126, 'name': 'Los Angeles International Airport', 'classification': 1, 'countryName': 'United States', 'weatherZone': 'CAZ041', 'localTime': '2017-02-08T21:28:48.593', 'city': 'Los Angeles', 'postalCode': '90045-5803', 'utcOffsetHours': -8.0}, {'longitude': -82.535415, 'active': True, 'cityCode': 'TPA', 'stateCode': 'FL', 'iata': 'TPA', 'faa': 'TPA', 'street1': '5507 West Spruce Street', 'timeZoneRegionName': 'America/New_York', 'countryCode': 'US', 'latitude': 27.979869, 'fs': 'TPA', 'regionName': 'North America', 'icao': 'KTPA', 'elevationFeet': 26, 'name': 'Tampa International Airport', 'classification': 1, 'countryName': 'United States', 'weatherZone': 'FLZ251', 'localTime': '2017-02-09T00:28:48.593', 'city': 'Tampa', 'postalCode': '33607', 'utcOffsetHours': -5.0}, {'street2': '', 'longitude': -80.278234, 'active': True, 'cityCode': 'MIA', 'stateCode': 'FL', 'iata': 'MIA', 'faa': 'MIA', 'street1': '4200 N.W. 21 Street', 'timeZoneRegionName': 'America/New_York', 'countryCode': 'US', 'latitude': 25.796, 'fs': 'MIA', 'regionName': 'North America', 'icao': 'KMIA', 'elevationFeet': 8, 'name': 'Miami International Airport', 'classification': 1, 'countryName': 'United States', 'weatherZone': 'FLZ074', 'localTime': '2017-02-09T00:28:48.593', 'city': 'Miami', 'postalCode': '33122', 'utcOffsetHours': -5.0}, {'latitude': 26.071492, 'name': 'Fort Lauderdale-Hollywood International Airport', 'longitude': -80.144908, 'utcOffsetHours': -5.0, 'active': True, 'weatherZone': 'FLZ072', 'elevationFeet': 9, 'timeZoneRegionName': 'America/New_York', 'stateCode': 'FL', 'iata': 'FLL', 'classification': 1, 'countryName': 'United States', 'localTime': '2017-02-09T00:28:48.593', 'street1': '320 Terminal Drive', 'city': 'Fort Lauderdale', 'cityCode': 'FLL', 'countryCode': 'US', 'regionName': 'North America', 'fs': 'FLL', 'faa': 'FLL', 'icao': 'KFLL'}, {'longitude': -73.78817, 'active': True, 'cityCode': 'NYC', 'stateCode': 'NY', 'iata': 'JFK', 'faa': 'JFK', 'street1': 'JFK Airport', 'timeZoneRegionName': 'America/New_York', 'countryCode': 'US', 'latitude': 40.642335, 'fs': 'JFK', 'regionName': 'North America', 'icao': 'KJFK', 'elevationFeet': 13, 'name': 'John F. Kennedy International Airport', 'classification': 1, 'countryName': 'United States', 'weatherZone': 'NYZ178', 'localTime': '2017-02-09T00:28:48.539', 'city': 'New York', 'postalCode': '11430', 'utcOffsetHours': -5.0}, {'longitude': -103.303984, 'active': True, 'elevationFeet': 5022, 'cityCode': 'GDL', 'iata': 'GDL', 'name': 'Don Miguel Hidal Y Costilla International Airport', 'classification': 2, 'countryName': 'Mexico', 'localTime': '2017-02-08T23:28:48.593', 'latitude': 20.525986, 'city': 'Guadalajara', 'timeZoneRegionName': 'America/Mexico_City', 'countryCode': 'MX', 'regionName': 'North America', 'fs': 'GDL', 'utcOffsetHours': -6.0, 'icao': 'MMGL'}, {'street2': '', 'longitude': -81.308301, 'active': True, 'cityCode': 'ORL', 'stateCode': 'FL', 'iata': 'MCO', 'faa': 'MCO', 'street1': 'One Airport Boulevard', 'timeZoneRegionName': 'America/New_York', 'countryCode': 'US', 'latitude': 28.432177, 'fs': 'MCO', 'regionName': 'North America', 'icao': 'KMCO', 'elevationFeet': 96, 'name': 'Orlando International Airport', 'classification': 1, 'countryName': 'United States', 'weatherZone': 'FLZ045', 'localTime': '2017-02-09T00:28:48.593', 'city': 'Orlando', 'postalCode': '32827-4399', 'utcOffsetHours': -5.0}, {'elevationFeet': 11, 'name': 'San Francisco International Airport', 'longitude': -122.389881, 'utcOffsetHours': -8.0, 'active': True, 'weatherZone': 'CAZ508', 'timeZoneRegionName': 'America/Los_Angeles', 'stateCode': 'CA', 'iata': 'SFO', 'classification': 1, 'countryName': 'United States', 'localTime': '2017-02-08T21:28:48.593', 'latitude': 37.615215, 'city': 'San Francisco', 'postalCode': '94128', 'cityCode': 'SFO', 'countryCode': 'US', 'regionName': 'North America', 'fs': 'SFO', 'faa': 'SFO', 'icao': 'KSFO'}], 'equipments': [{'jet': True, 'regional': False, 'turboProp': False, 'iata': '32B', 'widebody': False, 'name': 'Airbus A321 (sharklets)'}, {'jet': True, 'regional': False, 'turboProp': False, 'iata': '73H', 'widebody': False, 'name': 'Boeing 737-800 (winglets) Passenger/BBJ2'}, {'jet': True, 'regional': False, 'turboProp': False, 'iata': '320', 'widebody': False, 'name': 'Airbus A320'}, {'jet': True, 'regional': False, 'turboProp': False, 'iata': '321', 'widebody': False, 'name': 'Airbus A321'}, {'jet': True, 'regional': False, 'turboProp': False, 'iata': '32S', 'widebody': False, 'name': 'Airbus A318 / A319 / A320 / A321'}, {'jet': True, 'regional': False, 'turboProp': False, 'iata': '75W', 'widebody': False, 'name': 'Boeing 757-200 (winglets) Passenger'}]}, 'scheduledFlights': [{'flightNumber': '916', 'departureTime': '2017-02-09T15:55:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'flightEquipmentIataCode': '32S', 'isCodeshare': False, 'departureAirportFsCode': 'SFO', 'serviceType': 'J', 'carrierFsCode': 'B6', 'trafficRestrictions': [], 'departureTerminal': 'I', 'referenceCode': '27-3408505--', 'stops': 0, 'arrivalTime': '2017-02-10T00:19:00.000', 'codeshares': []}, {'flightNumber': '2362', 'departureTime': '2017-02-09T16:05:00.000', 'arrivalTerminal': '4', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '75W', 'isCodeshare': False, 'departureAirportFsCode': 'LAX', 'serviceType': 'J', 'carrierFsCode': 'DL', 'trafficRestrictions': [], 'departureTerminal': '5', 'referenceCode': '27-1998692--', 'stops': 0, 'arrivalTime': '2017-02-10T00:25:00.000', 'codeshares': [{'carrierFsCode': 'KE', 'flightNumber': '7537', 'trafficRestrictions': ['Q'], 'referenceCode': 10880155, 'serviceClasses': ['Y'], 'serviceType': 'J'}, {'carrierFsCode': 'VA', 'flightNumber': '6645', 'trafficRestrictions': ['X'], 'referenceCode': 10880156, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'VS', 'flightNumber': '4748', 'trafficRestrictions': ['Q'], 'referenceCode': 10880157, 'serviceClasses': ['R', 'J', 'Y'], 'serviceType': 'J'}]}, {'flightNumber': '7537', 'departureTime': '2017-02-09T16:05:00.000', 'arrivalTerminal': '4', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['Y'], 'flightEquipmentIataCode': '75W', 'isCodeshare': True, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1998692--10880155', 'serviceType': 'J', 'carrierFsCode': 'KE', 'trafficRestrictions': ['Q'], 'departureTerminal': '5', 'operator': {'carrierFsCode': 'DL', 'flightNumber': '2362', 'serviceClasses': ['J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:25:00.000', 'codeshares': []}, {'flightNumber': '6645', 'departureTime': '2017-02-09T16:05:00.000', 'arrivalTerminal': '4', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '75W', 'isCodeshare': True, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1998692--10880156', 'serviceType': 'J', 'carrierFsCode': 'VA', 'trafficRestrictions': ['X'], 'departureTerminal': '5', 'operator': {'carrierFsCode': 'DL', 'flightNumber': '2362', 'serviceClasses': ['J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:25:00.000', 'codeshares': []}, {'flightNumber': '4748', 'departureTime': '2017-02-09T16:05:00.000', 'arrivalTerminal': '4', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['R', 'J', 'Y'], 'flightEquipmentIataCode': '75W', 'isCodeshare': True, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1998692--10880157', 'serviceType': 'J', 'carrierFsCode': 'VS', 'trafficRestrictions': ['Q'], 'departureTerminal': '5', 'operator': {'carrierFsCode': 'DL', 'flightNumber': '2362', 'serviceClasses': ['J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:25:00.000', 'codeshares': []}, {'flightNumber': '2040', 'departureTime': '2017-02-09T16:00:00.000', 'arrivalTerminal': '4', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '75W', 'isCodeshare': False, 'departureAirportFsCode': 'SFO', 'serviceType': 'J', 'carrierFsCode': 'DL', 'trafficRestrictions': [], 'departureTerminal': '1', 'referenceCode': '27-3409552--', 'stops': 0, 'arrivalTime': '2017-02-10T00:32:00.000', 'codeshares': [{'carrierFsCode': 'AZ', 'flightNumber': '3435', 'trafficRestrictions': ['G'], 'referenceCode': 3408723, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'VS', 'flightNumber': '4856', 'trafficRestrictions': ['Q'], 'referenceCode': 3409669, 'serviceClasses': ['R', 'J', 'Y'], 'serviceType': 'J'}]}, {'flightNumber': '3435', 'departureTime': '2017-02-09T16:00:00.000', 'arrivalTerminal': '4', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '75W', 'isCodeshare': True, 'departureAirportFsCode': 'SFO', 'referenceCode': '27-3409552--3408723', 'serviceType': 'J', 'carrierFsCode': 'AZ', 'trafficRestrictions': ['G'], 'departureTerminal': '1', 'operator': {'carrierFsCode': 'DL', 'flightNumber': '2040', 'serviceClasses': ['J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:32:00.000', 'codeshares': []}, {'flightNumber': '4856', 'departureTime': '2017-02-09T16:00:00.000', 'arrivalTerminal': '4', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['R', 'J', 'Y'], 'flightEquipmentIataCode': '75W', 'isCodeshare': True, 'departureAirportFsCode': 'SFO', 'referenceCode': '27-3409552--3409669', 'serviceType': 'J', 'carrierFsCode': 'VS', 'trafficRestrictions': ['Q'], 'departureTerminal': '1', 'operator': {'carrierFsCode': 'DL', 'flightNumber': '2040', 'serviceClasses': ['J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:32:00.000', 'codeshares': []}, {'flightNumber': '894', 'departureTime': '2017-02-09T18:34:00.000', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': False, 'serviceClasses': ['Y'], 'flightEquipmentIataCode': '320', 'isWetlease': False, 'departureAirportFsCode': 'GDL', 'serviceType': 'J', 'carrierFsCode': 'Y4', 'trafficRestrictions': [], 'departureTerminal': '1', 'referenceCode': '27-1433684--', 'stops': 0, 'arrivalTime': '2017-02-10T00:20:00.000', 'codeshares': []}, {'flightNumber': '1024', 'departureTime': '2017-02-09T16:40:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'flightEquipmentIataCode': '32S', 'isCodeshare': False, 'departureAirportFsCode': 'LAX', 'serviceType': 'J', 'carrierFsCode': 'B6', 'trafficRestrictions': [], 'departureTerminal': '3', 'referenceCode': '27-2000980--', 'stops': 0, 'arrivalTime': '2017-02-10T00:49:00.000', 'codeshares': []}, {'flightNumber': '690', 'departureTime': '2017-02-09T21:48:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': False, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'MCO', 'serviceType': 'J', 'carrierFsCode': 'B6', 'trafficRestrictions': [], 'referenceCode': '27-2380599--', 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': [{'carrierFsCode': 'HA', 'flightNumber': '2067', 'trafficRestrictions': ['X'], 'referenceCode': 2379730, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'SA', 'flightNumber': '7365', 'trafficRestrictions': ['G'], 'referenceCode': 11079236, 'serviceClasses': ['Y'], 'serviceType': 'J'}, {'carrierFsCode': 'EK', 'flightNumber': '6748', 'trafficRestrictions': ['Y'], 'referenceCode': 11079237, 'serviceClasses': ['R', 'Y'], 'serviceType': 'J'}]}, {'flightNumber': '2067', 'departureTime': '2017-02-09T21:48:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'MCO', 'referenceCode': '27-2380599--2379730', 'serviceType': 'J', 'carrierFsCode': 'HA', 'trafficRestrictions': ['X'], 'operator': {'carrierFsCode': 'B6', 'flightNumber': '690', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': []}, {'flightNumber': '7365', 'departureTime': '2017-02-09T21:48:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'MCO', 'referenceCode': '27-2380599--11079236', 'serviceType': 'J', 'carrierFsCode': 'SA', 'trafficRestrictions': ['G'], 'operator': {'carrierFsCode': 'B6', 'flightNumber': '690', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': []}, {'flightNumber': '6748', 'departureTime': '2017-02-09T21:48:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['R', 'Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'MCO', 'referenceCode': '27-2380599--11079237', 'serviceType': 'J', 'carrierFsCode': 'EK', 'trafficRestrictions': ['Y'], 'operator': {'carrierFsCode': 'B6', 'flightNumber': '690', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': []}, {'flightNumber': '26', 'departureTime': '2017-02-09T21:36:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': False, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'TPA', 'serviceType': 'J', 'carrierFsCode': 'B6', 'trafficRestrictions': [], 'referenceCode': '27-3728521--', 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': [{'carrierFsCode': 'HA', 'flightNumber': '2073', 'trafficRestrictions': ['X'], 'referenceCode': 11700507, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'SA', 'flightNumber': '7385', 'trafficRestrictions': ['G'], 'referenceCode': 11700508, 'serviceClasses': ['Y'], 'serviceType': 'J'}, {'carrierFsCode': 'EK', 'flightNumber': '6768', 'trafficRestrictions': ['Y'], 'referenceCode': 11700509, 'serviceClasses': ['R', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'QR', 'flightNumber': '4162', 'trafficRestrictions': ['Y'], 'referenceCode': 11700510, 'serviceClasses': ['Y'], 'serviceType': 'J'}]}, {'flightNumber': '2073', 'departureTime': '2017-02-09T21:36:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'TPA', 'referenceCode': '27-3728521--11700507', 'serviceType': 'J', 'carrierFsCode': 'HA', 'trafficRestrictions': ['X'], 'operator': {'carrierFsCode': 'B6', 'flightNumber': '26', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': []}, {'flightNumber': '7385', 'departureTime': '2017-02-09T21:36:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'TPA', 'referenceCode': '27-3728521--11700508', 'serviceType': 'J', 'carrierFsCode': 'SA', 'trafficRestrictions': ['G'], 'operator': {'carrierFsCode': 'B6', 'flightNumber': '26', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': []}, {'flightNumber': '6768', 'departureTime': '2017-02-09T21:36:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['R', 'Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'TPA', 'referenceCode': '27-3728521--11700509', 'serviceType': 'J', 'carrierFsCode': 'EK', 'trafficRestrictions': ['Y'], 'operator': {'carrierFsCode': 'B6', 'flightNumber': '26', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': []}, {'flightNumber': '4162', 'departureTime': '2017-02-09T21:36:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['Y'], 'flightEquipmentIataCode': '321', 'isWetlease': False, 'departureAirportFsCode': 'TPA', 'referenceCode': '27-3728521--11700510', 'serviceType': 'J', 'carrierFsCode': 'QR', 'trafficRestrictions': ['Y'], 'operator': {'carrierFsCode': 'B6', 'flightNumber': '26', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:09:00.000', 'codeshares': []}, {'flightNumber': '1802', 'departureTime': '2017-02-09T21:46:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'flightEquipmentIataCode': '320', 'isCodeshare': False, 'departureAirportFsCode': 'FLL', 'serviceType': 'J', 'carrierFsCode': 'B6', 'trafficRestrictions': [], 'departureTerminal': '3', 'referenceCode': '27-1355278--', 'stops': 0, 'arrivalTime': '2017-02-10T00:26:00.000', 'codeshares': [{'carrierFsCode': 'HA', 'flightNumber': '2083', 'trafficRestrictions': ['X'], 'referenceCode': 1355783, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'QR', 'flightNumber': '4208', 'trafficRestrictions': ['Y'], 'referenceCode': 10570596, 'serviceClasses': ['Y'], 'serviceType': 'J'}]}, {'flightNumber': '2083', 'departureTime': '2017-02-09T21:46:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '320', 'isCodeshare': True, 'departureAirportFsCode': 'FLL', 'referenceCode': '27-1355278--1355783', 'serviceType': 'J', 'carrierFsCode': 'HA', 'trafficRestrictions': ['X'], 'departureTerminal': '3', 'operator': {'carrierFsCode': 'B6', 'flightNumber': '1802', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:26:00.000', 'codeshares': []}, {'flightNumber': '4208', 'departureTime': '2017-02-09T21:46:00.000', 'arrivalTerminal': '5', 'arrivalAirportFsCode': 'JFK', 'isWetlease': False, 'serviceClasses': ['Y'], 'flightEquipmentIataCode': '320', 'isCodeshare': True, 'departureAirportFsCode': 'FLL', 'referenceCode': '27-1355278--10570596', 'serviceType': 'J', 'carrierFsCode': 'QR', 'trafficRestrictions': ['Y'], 'departureTerminal': '3', 'operator': {'carrierFsCode': 'B6', 'flightNumber': '1802', 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:26:00.000', 'codeshares': []}, {'flightNumber': '8907', 'departureTime': '2017-02-09T16:30:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['F', 'J', 'Y'], 'flightEquipmentIataCode': '32B', 'isWetlease': False, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1999035--10880196', 'serviceType': 'J', 'carrierFsCode': 'HU', 'trafficRestrictions': ['O'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '180', 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:58:00.000', 'codeshares': []}, {'flightNumber': '3087', 'departureTime': '2017-02-09T16:30:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['F', 'J', 'Y'], 'flightEquipmentIataCode': '32B', 'isWetlease': False, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1999035--10880194', 'serviceType': 'J', 'carrierFsCode': 'QF', 'trafficRestrictions': ['Q'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '180', 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:58:00.000', 'codeshares': []}, {'flightNumber': '1214', 'departureTime': '2017-02-09T16:30:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '32B', 'isWetlease': False, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1999035--10880199', 'serviceType': 'J', 'carrierFsCode': 'TN', 'trafficRestrictions': ['Q'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '180', 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:58:00.000', 'codeshares': []}, {'flightNumber': '6394', 'departureTime': '2017-02-09T16:30:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['R', 'F', 'Y'], 'flightEquipmentIataCode': '32B', 'isWetlease': False, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1999035--10880201', 'serviceType': 'J', 'carrierFsCode': 'AS', 'trafficRestrictions': [], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '180', 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:58:00.000', 'codeshares': []}, {'flightNumber': '3029', 'departureTime': '2017-02-09T16:30:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'flightEquipmentIataCode': '32B', 'isWetlease': False, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1999035--10880203', 'serviceType': 'J', 'carrierFsCode': 'EY', 'trafficRestrictions': ['G'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '180', 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:58:00.000', 'codeshares': []}, {'flightNumber': '7774', 'departureTime': '2017-02-09T16:30:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'flightEquipmentIataCode': '32B', 'isWetlease': False, 'departureAirportFsCode': 'LAX', 'referenceCode': '27-1999035--10880205', 'serviceType': 'J', 'carrierFsCode': 'BA', 'trafficRestrictions': ['Q'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '180', 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:58:00.000', 'codeshares': []}, {'flightNumber': '180', 'departureTime': '2017-02-09T16:30:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': False, 'serviceClasses': ['F', 'J', 'Y'], 'flightEquipmentIataCode': '32B', 'isWetlease': False, 'departureAirportFsCode': 'LAX', 'serviceType': 'J', 'carrierFsCode': 'AA', 'trafficRestrictions': [], 'referenceCode': '27-1999035--', 'stops': 0, 'arrivalTime': '2017-02-10T00:58:00.000', 'codeshares': [{'carrierFsCode': 'QF', 'flightNumber': '3087', 'trafficRestrictions': ['Q'], 'referenceCode': 10880194, 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'HU', 'flightNumber': '8907', 'trafficRestrictions': ['O'], 'referenceCode': 10880196, 'serviceClasses': ['F', 'J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'TN', 'flightNumber': '1214', 'trafficRestrictions': ['Q'], 'referenceCode': 10880199, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'AS', 'flightNumber': '6394', 'trafficRestrictions': [], 'referenceCode': 10880201, 'serviceClasses': ['R', 'F', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'EY', 'flightNumber': '3029', 'trafficRestrictions': ['G'], 'referenceCode': 10880203, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'BA', 'flightNumber': '7774', 'trafficRestrictions': ['Q'], 'referenceCode': 10880205, 'serviceClasses': ['R', 'F', 'J', 'Y'], 'serviceType': 'J'}]}, {'flightNumber': '1406', 'departureTime': '2017-02-09T21:56:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': False, 'serviceClasses': ['R', 'J', 'Y'], 'flightEquipmentIataCode': '73H', 'isWetlease': False, 'departureAirportFsCode': 'MIA', 'serviceType': 'J', 'carrierFsCode': 'AA', 'trafficRestrictions': [], 'referenceCode': '27-2507024--', 'stops': 0, 'arrivalTime': '2017-02-10T00:51:00.000', 'codeshares': [{'carrierFsCode': 'JJ', 'flightNumber': '2334', 'trafficRestrictions': ['G'], 'referenceCode': 2506073, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'LA', 'flightNumber': '8715', 'trafficRestrictions': ['G'], 'referenceCode': 11130586, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'MH', 'flightNumber': '9439', 'trafficRestrictions': ['O'], 'referenceCode': 11130587, 'serviceClasses': ['J', 'Y'], 'serviceType': 'J'}, {'carrierFsCode': 'BA', 'flightNumber': '4373', 'trafficRestrictions': ['Q'], 'referenceCode': 11130588, 'serviceClasses': ['R', 'J', 'Y'], 'serviceType': 'J'}]}, {'flightNumber': '2334', 'departureTime': '2017-02-09T21:56:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '73H', 'isWetlease': False, 'departureAirportFsCode': 'MIA', 'referenceCode': '27-2507024--2506073', 'serviceType': 'J', 'carrierFsCode': 'JJ', 'trafficRestrictions': ['G'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '1406', 'serviceClasses': ['R', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:51:00.000', 'codeshares': []}, {'flightNumber': '8715', 'departureTime': '2017-02-09T21:56:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '73H', 'isWetlease': False, 'departureAirportFsCode': 'MIA', 'referenceCode': '27-2507024--11130586', 'serviceType': 'J', 'carrierFsCode': 'LA', 'trafficRestrictions': ['G'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '1406', 'serviceClasses': ['R', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:51:00.000', 'codeshares': []}, {'flightNumber': '9439', 'departureTime': '2017-02-09T21:56:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['J', 'Y'], 'flightEquipmentIataCode': '73H', 'isWetlease': False, 'departureAirportFsCode': 'MIA', 'referenceCode': '27-2507024--11130587', 'serviceType': 'J', 'carrierFsCode': 'MH', 'trafficRestrictions': ['O'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '1406', 'serviceClasses': ['R', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:51:00.000', 'codeshares': []}, {'flightNumber': '4373', 'departureTime': '2017-02-09T21:56:00.000', 'arrivalTerminal': '8', 'arrivalAirportFsCode': 'JFK', 'isCodeshare': True, 'serviceClasses': ['R', 'J', 'Y'], 'flightEquipmentIataCode': '73H', 'isWetlease': False, 'departureAirportFsCode': 'MIA', 'referenceCode': '27-2507024--11130588', 'serviceType': 'J', 'carrierFsCode': 'BA', 'trafficRestrictions': ['Q'], 'operator': {'carrierFsCode': 'AA', 'flightNumber': '1406', 'serviceClasses': ['R', 'J', 'Y'], 'serviceType': 'J', 'trafficRestrictions': []}, 'stops': 0, 'arrivalTime': '2017-02-10T00:51:00.000', 'codeshares': []}], 'request': {'date': {'interpreted': '2017-02-10', 'year': '2017', 'day': '10', 'month': '2'}, 'url': 'https://api.flightstats.com/flex/schedules/rest/v1/json/to/JFK/arriving/2017/2/10/0', 'hourOfDay': {'interpreted': 0, 'requested': '0'}, 'airport': {'fsCode': 'JFK', 'requestedCode': 'JFK'}, 'departing': False, 'codeType': {}}}
+{
+ "request": {
+  "airport": {
+   "requestedCode": "JFK",
+   "fsCode": "JFK"
+  },
+  "codeType": {},
+  "departing": False,
+  "date": {
+   "year": "2017",
+   "month": "2",
+   "day": "10",
+   "interpreted": "2017-02-10"
+  },
+  "hourOfDay": {
+   "requested": "0",
+   "interpreted": 0
+  },
+  "url": "https://api.flightstats.com/flex/schedules/rest/v1/json/to/JFK/arriving/2017/02/10/0"
+ },
+ "scheduledFlights": [
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "2040",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "1",
+   "arrivalTerminal": "4",
+   "departureTime": "2017-02-09T16:00:00.000",
+   "arrivalTime": "2017-02-10T00:32:00.000",
+   "flightEquipmentIataCode": "75W",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AZ",
+     "flightNumber": "3435",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11554327
+    },
+    {
+     "carrierFsCode": "VS",
+     "flightNumber": "4856",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11554328
+    }
+   ],
+   "referenceCode": "29-3463914--"
+  },
+  {
+   "carrierFsCode": "AZ",
+   "flightNumber": "3435",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "1",
+   "arrivalTerminal": "4",
+   "departureTime": "2017-02-09T16:00:00.000",
+   "arrivalTime": "2017-02-10T00:32:00.000",
+   "flightEquipmentIataCode": "75W",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2040",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-3463914--11554327"
+  },
+  {
+   "carrierFsCode": "VS",
+   "flightNumber": "4856",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "1",
+   "arrivalTerminal": "4",
+   "departureTime": "2017-02-09T16:00:00.000",
+   "arrivalTime": "2017-02-10T00:32:00.000",
+   "flightEquipmentIataCode": "75W",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2040",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-3463914--11554328"
+  },
+  {
+   "carrierFsCode": "B6",
+   "flightNumber": "690",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:48:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "HA",
+     "flightNumber": "2067",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "X"
+     ],
+     "referenceCode": 2419850
+    },
+    {
+     "carrierFsCode": "SA",
+     "flightNumber": "7365",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11080447
+    },
+    {
+     "carrierFsCode": "EK",
+     "flightNumber": "6748",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 11080448
+    }
+   ],
+   "referenceCode": "29-2419370--"
+  },
+  {
+   "carrierFsCode": "SA",
+   "flightNumber": "7365",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:48:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "690",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2419370--11080447"
+  },
+  {
+   "carrierFsCode": "EK",
+   "flightNumber": "6748",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:48:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "690",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2419370--11080448"
+  },
+  {
+   "carrierFsCode": "Y4",
+   "flightNumber": "894",
+   "departureAirportFsCode": "GDL",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "1",
+   "departureTime": "2017-02-09T18:34:00.000",
+   "arrivalTime": "2017-02-10T00:20:00.000",
+   "flightEquipmentIataCode": "320",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [],
+   "referenceCode": "29-1461262--"
+  },
+  {
+   "carrierFsCode": "B6",
+   "flightNumber": "1024",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "3",
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T16:40:00.000",
+   "arrivalTime": "2017-02-10T00:49:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [],
+   "referenceCode": "29-2036269--"
+  },
+  {
+   "carrierFsCode": "B6",
+   "flightNumber": "26",
+   "departureAirportFsCode": "TPA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:36:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "HA",
+     "flightNumber": "2073",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "X"
+     ],
+     "referenceCode": 11696984
+    },
+    {
+     "carrierFsCode": "SA",
+     "flightNumber": "7385",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11696985
+    },
+    {
+     "carrierFsCode": "EK",
+     "flightNumber": "6768",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 11696986
+    },
+    {
+     "carrierFsCode": "QR",
+     "flightNumber": "4162",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 11696987
+    }
+   ],
+   "referenceCode": "29-3787268--"
+  },
+  {
+   "carrierFsCode": "HA",
+   "flightNumber": "2073",
+   "departureAirportFsCode": "TPA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:36:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "X"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "26",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-3787268--11696984"
+  },
+  {
+   "carrierFsCode": "SA",
+   "flightNumber": "7385",
+   "departureAirportFsCode": "TPA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:36:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "26",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-3787268--11696985"
+  },
+  {
+   "carrierFsCode": "EK",
+   "flightNumber": "6768",
+   "departureAirportFsCode": "TPA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:36:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "26",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-3787268--11696986"
+  },
+  {
+   "carrierFsCode": "QR",
+   "flightNumber": "4162",
+   "departureAirportFsCode": "TPA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:36:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "26",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-3787268--11696987"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "2362",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "5",
+   "arrivalTerminal": "4",
+   "departureTime": "2017-02-09T16:05:00.000",
+   "arrivalTime": "2017-02-10T00:25:00.000",
+   "flightEquipmentIataCode": "75W",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "KE",
+     "flightNumber": "7537",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 10883061
+    },
+    {
+     "carrierFsCode": "VA",
+     "flightNumber": "6645",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "X"
+     ],
+     "referenceCode": 10883062
+    },
+    {
+     "carrierFsCode": "VS",
+     "flightNumber": "4748",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 10883063
+    }
+   ],
+   "referenceCode": "29-2036740--"
+  },
+  {
+   "carrierFsCode": "KE",
+   "flightNumber": "7537",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "5",
+   "arrivalTerminal": "4",
+   "departureTime": "2017-02-09T16:05:00.000",
+   "arrivalTime": "2017-02-10T00:25:00.000",
+   "flightEquipmentIataCode": "75W",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2362",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036740--10883061"
+  },
+  {
+   "carrierFsCode": "VA",
+   "flightNumber": "6645",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "5",
+   "arrivalTerminal": "4",
+   "departureTime": "2017-02-09T16:05:00.000",
+   "arrivalTime": "2017-02-10T00:25:00.000",
+   "flightEquipmentIataCode": "75W",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "X"
+   ],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2362",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036740--10883062"
+  },
+  {
+   "carrierFsCode": "VS",
+   "flightNumber": "4748",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "5",
+   "arrivalTerminal": "4",
+   "departureTime": "2017-02-09T16:05:00.000",
+   "arrivalTime": "2017-02-10T00:25:00.000",
+   "flightEquipmentIataCode": "75W",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2362",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036740--10883063"
+  },
+  {
+   "carrierFsCode": "HA",
+   "flightNumber": "2067",
+   "departureAirportFsCode": "MCO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:48:00.000",
+   "arrivalTime": "2017-02-10T00:09:00.000",
+   "flightEquipmentIataCode": "321",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "X"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "690",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2419370--2419850"
+  },
+  {
+   "carrierFsCode": "B6",
+   "flightNumber": "1802",
+   "departureAirportFsCode": "FLL",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "3",
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:46:00.000",
+   "arrivalTime": "2017-02-10T00:26:00.000",
+   "flightEquipmentIataCode": "320",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "HA",
+     "flightNumber": "2083",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "X"
+     ],
+     "referenceCode": 1383290
+    },
+    {
+     "carrierFsCode": "QR",
+     "flightNumber": "4208",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 10575935
+    }
+   ],
+   "referenceCode": "29-1383515--"
+  },
+  {
+   "carrierFsCode": "HA",
+   "flightNumber": "2083",
+   "departureAirportFsCode": "FLL",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "3",
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:46:00.000",
+   "arrivalTime": "2017-02-10T00:26:00.000",
+   "flightEquipmentIataCode": "320",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "X"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "1802",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-1383515--1383290"
+  },
+  {
+   "carrierFsCode": "QR",
+   "flightNumber": "4208",
+   "departureAirportFsCode": "FLL",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "3",
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T21:46:00.000",
+   "arrivalTime": "2017-02-10T00:26:00.000",
+   "flightEquipmentIataCode": "320",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "B6",
+    "flightNumber": "1802",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-1383515--10575935"
+  },
+  {
+   "carrierFsCode": "B6",
+   "flightNumber": "916",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "departureTerminal": "I",
+   "arrivalTerminal": "5",
+   "departureTime": "2017-02-09T15:55:00.000",
+   "arrivalTime": "2017-02-10T00:19:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [],
+   "referenceCode": "29-3463253--"
+  },
+  {
+   "carrierFsCode": "AA",
+   "flightNumber": "180",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T16:30:00.000",
+   "arrivalTime": "2017-02-10T00:58:00.000",
+   "flightEquipmentIataCode": "32B",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "QF",
+     "flightNumber": "3087",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 10883100
+    },
+    {
+     "carrierFsCode": "HU",
+     "flightNumber": "8907",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "O"
+     ],
+     "referenceCode": 10883102
+    },
+    {
+     "carrierFsCode": "TN",
+     "flightNumber": "1214",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 10883104
+    },
+    {
+     "carrierFsCode": "AS",
+     "flightNumber": "6394",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [],
+     "referenceCode": 10883106
+    },
+    {
+     "carrierFsCode": "EY",
+     "flightNumber": "3029",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 10883108
+    },
+    {
+     "carrierFsCode": "BA",
+     "flightNumber": "7774",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 10883110
+    }
+   ],
+   "referenceCode": "29-2036019--"
+  },
+  {
+   "carrierFsCode": "QF",
+   "flightNumber": "3087",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T16:30:00.000",
+   "arrivalTime": "2017-02-10T00:58:00.000",
+   "flightEquipmentIataCode": "32B",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "180",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036019--10883100"
+  },
+  {
+   "carrierFsCode": "HU",
+   "flightNumber": "8907",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T16:30:00.000",
+   "arrivalTime": "2017-02-10T00:58:00.000",
+   "flightEquipmentIataCode": "32B",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "O"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "180",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036019--10883102"
+  },
+  {
+   "carrierFsCode": "TN",
+   "flightNumber": "1214",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T16:30:00.000",
+   "arrivalTime": "2017-02-10T00:58:00.000",
+   "flightEquipmentIataCode": "32B",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "180",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036019--10883104"
+  },
+  {
+   "carrierFsCode": "AS",
+   "flightNumber": "6394",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T16:30:00.000",
+   "arrivalTime": "2017-02-10T00:58:00.000",
+   "flightEquipmentIataCode": "32B",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "180",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036019--10883106"
+  },
+  {
+   "carrierFsCode": "EY",
+   "flightNumber": "3029",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T16:30:00.000",
+   "arrivalTime": "2017-02-10T00:58:00.000",
+   "flightEquipmentIataCode": "32B",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "180",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036019--10883108"
+  },
+  {
+   "carrierFsCode": "BA",
+   "flightNumber": "7774",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T16:30:00.000",
+   "arrivalTime": "2017-02-10T00:58:00.000",
+   "flightEquipmentIataCode": "32B",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "180",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2036019--10883110"
+  },
+  {
+   "carrierFsCode": "AA",
+   "flightNumber": "1406",
+   "departureAirportFsCode": "MIA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T21:56:00.000",
+   "arrivalTime": "2017-02-10T00:51:00.000",
+   "flightEquipmentIataCode": "73H",
+   "isCodeshare": False,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "JJ",
+     "flightNumber": "2334",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 2546848
+    },
+    {
+     "carrierFsCode": "LA",
+     "flightNumber": "8715",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11130045
+    },
+    {
+     "carrierFsCode": "MH",
+     "flightNumber": "9439",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "O"
+     ],
+     "referenceCode": 11130046
+    },
+    {
+     "carrierFsCode": "BA",
+     "flightNumber": "4373",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11130047
+    }
+   ],
+   "referenceCode": "29-2547400--"
+  },
+  {
+   "carrierFsCode": "JJ",
+   "flightNumber": "2334",
+   "departureAirportFsCode": "MIA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T21:56:00.000",
+   "arrivalTime": "2017-02-10T00:51:00.000",
+   "flightEquipmentIataCode": "73H",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "1406",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2547400--2546848"
+  },
+  {
+   "carrierFsCode": "LA",
+   "flightNumber": "8715",
+   "departureAirportFsCode": "MIA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T21:56:00.000",
+   "arrivalTime": "2017-02-10T00:51:00.000",
+   "flightEquipmentIataCode": "73H",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "1406",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2547400--11130045"
+  },
+  {
+   "carrierFsCode": "MH",
+   "flightNumber": "9439",
+   "departureAirportFsCode": "MIA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T21:56:00.000",
+   "arrivalTime": "2017-02-10T00:51:00.000",
+   "flightEquipmentIataCode": "73H",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "O"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "1406",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2547400--11130046"
+  },
+  {
+   "carrierFsCode": "BA",
+   "flightNumber": "4373",
+   "departureAirportFsCode": "MIA",
+   "arrivalAirportFsCode": "JFK",
+   "stops": 0,
+   "arrivalTerminal": "8",
+   "departureTime": "2017-02-09T21:56:00.000",
+   "arrivalTime": "2017-02-10T00:51:00.000",
+   "flightEquipmentIataCode": "73H",
+   "isCodeshare": True,
+   "isWetlease": False,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "AA",
+    "flightNumber": "1406",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "29-2547400--11130047"
+  }
+ ],
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "AA",
+    "iata": "AA",
+    "icao": "AAL",
+    "name": "American Airlines",
+    "phoneNumber": "08457-567-567",
+    "active": True
+   },
+   {
+    "fs": "JJ",
+    "iata": "JJ",
+    "icao": "TAM",
+    "name": "LATAM Airlines Brasil",
+    "phoneNumber": "1-888-2FLY TAM",
+    "active": True
+   },
+   {
+    "fs": "QR",
+    "iata": "QR",
+    "icao": "QTR",
+    "name": "Qatar Airways",
+    "phoneNumber": "+1 877 777 2827",
+    "active": True
+   },
+   {
+    "fs": "EK",
+    "iata": "EK",
+    "icao": "UAE",
+    "name": "Emirates",
+    "phoneNumber": "800 777 3999",
+    "active": True
+   },
+   {
+    "fs": "DL",
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "phoneNumber": "1-800-221-1212",
+    "active": True
+   },
+   {
+    "fs": "VA",
+    "iata": "VA",
+    "icao": "VOZ",
+    "name": "Virgin Australia",
+    "active": True
+   },
+   {
+    "fs": "HU",
+    "iata": "HU",
+    "icao": "CHH",
+    "name": "Hainan Airlines",
+    "phoneNumber": "03-10-2007",
+    "active": True
+   },
+   {
+    "fs": "SA",
+    "iata": "SA",
+    "icao": "SAA",
+    "name": "South African Airways",
+    "phoneNumber": "+27 11 978 5313",
+    "active": True
+   },
+   {
+    "fs": "AS",
+    "iata": "AS",
+    "icao": "ASA",
+    "name": "Alaska Airlines",
+    "phoneNumber": "1-800-252-7522",
+    "active": True
+   },
+   {
+    "fs": "B6",
+    "iata": "B6",
+    "icao": "JBU",
+    "name": "JetBlue Airways",
+    "phoneNumber": "1-800-538-2583",
+    "active": True
+   },
+   {
+    "fs": "EY",
+    "iata": "EY",
+    "icao": "ETD",
+    "name": "Etihad Airways",
+    "active": True
+   },
+   {
+    "fs": "QF",
+    "iata": "QF",
+    "icao": "QFA",
+    "name": "Qantas",
+    "phoneNumber": "+61 2 9691 3636",
+    "active": True
+   },
+   {
+    "fs": "LA",
+    "iata": "LA",
+    "icao": "LAN",
+    "name": "LATAM Airlines",
+    "phoneNumber": "1 (305) 670 9999",
+    "active": True
+   },
+   {
+    "fs": "AZ",
+    "iata": "AZ",
+    "icao": "AZA",
+    "name": "Alitalia",
+    "phoneNumber": "1-800-223-5730",
+    "active": True
+   },
+   {
+    "fs": "HA",
+    "iata": "HA",
+    "icao": "HAL",
+    "name": "Hawaiian Airlines",
+    "phoneNumber": "1-800-367-5320",
+    "active": True
+   },
+   {
+    "fs": "KE",
+    "iata": "KE",
+    "icao": "KAL",
+    "name": "Korean Air",
+    "phoneNumber": "1-800-438-5000",
+    "active": True
+   },
+   {
+    "fs": "TN",
+    "iata": "TN",
+    "icao": "THT",
+    "name": "Air Tahiti Nui",
+    "active": True
+   },
+   {
+    "fs": "Y4",
+    "iata": "Y4",
+    "icao": "VOI",
+    "name": "Volaris",
+    "active": True
+   },
+   {
+    "fs": "MH",
+    "iata": "MH",
+    "icao": "MAS",
+    "name": "Malaysia Airlines",
+    "phoneNumber": "+603 7843 3000",
+    "active": True
+   },
+   {
+    "fs": "VS",
+    "iata": "VS",
+    "icao": "VIR",
+    "name": "Virgin Atlantic",
+    "active": True
+   },
+   {
+    "fs": "BA",
+    "iata": "BA",
+    "icao": "BAW",
+    "name": "British Airways",
+    "phoneNumber": "1-800-AIRWAYS",
+    "active": True
+   }
+  ],
+  "airports": [
+   {
+    "fs": "LAX",
+    "iata": "LAX",
+    "icao": "KLAX",
+    "faa": "LAX",
+    "name": "Los Angeles International Airport",
+    "street1": "One World Way",
+    "street2": "",
+    "city": "Los Angeles",
+    "cityCode": "LAX",
+    "stateCode": "CA",
+    "postalCode": "90045-5803",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ041",
+    "localTime": "2017-02-10T22:44:59.026",
+    "utcOffsetHours": -8,
+    "latitude": 33.943399,
+    "longitude": -118.408279,
+    "elevationFeet": 126,
+    "classification": 1,
+    "active": True
+   },
+   {
+    "fs": "TPA",
+    "iata": "TPA",
+    "icao": "KTPA",
+    "faa": "TPA",
+    "name": "Tampa International Airport",
+    "street1": "5507 West Spruce Street",
+    "city": "Tampa",
+    "cityCode": "TPA",
+    "stateCode": "FL",
+    "postalCode": "33607",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "FLZ251",
+    "localTime": "2017-02-11T01:44:59.026",
+    "utcOffsetHours": -5,
+    "latitude": 27.979869,
+    "longitude": -82.535415,
+    "elevationFeet": 26,
+    "classification": 1,
+    "active": True
+   },
+   {
+    "fs": "MIA",
+    "iata": "MIA",
+    "icao": "KMIA",
+    "faa": "MIA",
+    "name": "Miami International Airport",
+    "street1": "4200 N.W. 21 Street",
+    "street2": "",
+    "city": "Miami",
+    "cityCode": "MIA",
+    "stateCode": "FL",
+    "postalCode": "33122",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "FLZ074",
+    "localTime": "2017-02-11T01:44:59.027",
+    "utcOffsetHours": -5,
+    "latitude": 25.796,
+    "longitude": -80.278234,
+    "elevationFeet": 8,
+    "classification": 1,
+    "active": True
+   },
+   {
+    "fs": "FLL",
+    "iata": "FLL",
+    "icao": "KFLL",
+    "faa": "FLL",
+    "name": "Fort Lauderdale-Hollywood International Airport",
+    "street1": "320 Terminal Drive",
+    "city": "Fort Lauderdale",
+    "cityCode": "FLL",
+    "stateCode": "FL",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "FLZ072",
+    "localTime": "2017-02-11T01:44:59.026",
+    "utcOffsetHours": -5,
+    "latitude": 26.071492,
+    "longitude": -80.144908,
+    "elevationFeet": 9,
+    "classification": 1,
+    "active": True
+   },
+   {
+    "fs": "JFK",
+    "iata": "JFK",
+    "icao": "KJFK",
+    "faa": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "street1": "JFK Airport",
+    "city": "New York",
+    "cityCode": "NYC",
+    "stateCode": "NY",
+    "postalCode": "11430",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "NYZ178",
+    "localTime": "2017-02-11T01:44:58.980",
+    "utcOffsetHours": -5,
+    "latitude": 40.642335,
+    "longitude": -73.78817,
+    "elevationFeet": 13,
+    "classification": 1,
+    "active": True
+   },
+   {
+    "fs": "GDL",
+    "iata": "GDL",
+    "icao": "MMGL",
+    "name": "Don Miguel Hidal Y Costilla International Airport",
+    "city": "Guadalajara",
+    "cityCode": "GDL",
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Mexico_City",
+    "localTime": "2017-02-11T00:44:59.026",
+    "utcOffsetHours": -6,
+    "latitude": 20.525986,
+    "longitude": -103.303984,
+    "elevationFeet": 5022,
+    "classification": 2,
+    "active": True
+   },
+   {
+    "fs": "MCO",
+    "iata": "MCO",
+    "icao": "KMCO",
+    "faa": "MCO",
+    "name": "Orlando International Airport",
+    "street1": "One Airport Boulevard",
+    "street2": "",
+    "city": "Orlando",
+    "cityCode": "ORL",
+    "stateCode": "FL",
+    "postalCode": "32827-4399",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "FLZ045",
+    "localTime": "2017-02-11T01:44:59.026",
+    "utcOffsetHours": -5,
+    "latitude": 28.432177,
+    "longitude": -81.308301,
+    "elevationFeet": 96,
+    "classification": 1,
+    "active": True
+   },
+   {
+    "fs": "SFO",
+    "iata": "SFO",
+    "icao": "KSFO",
+    "faa": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "cityCode": "SFO",
+    "stateCode": "CA",
+    "postalCode": "94128",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ508",
+    "localTime": "2017-02-10T22:44:59.026",
+    "utcOffsetHours": -8,
+    "latitude": 37.615215,
+    "longitude": -122.389881,
+    "elevationFeet": 11,
+    "classification": 1,
+    "active": True
+   }
+  ],
+  "equipments": [
+   {
+    "iata": "32B",
+    "name": "Airbus A321 (sharklets)",
+    "turboProp": False,
+    "jet": True,
+    "widebody": False,
+    "regional": False
+   },
+   {
+    "iata": "73H",
+    "name": "Boeing 737-800 (winglets) Passenger/BBJ2",
+    "turboProp": False,
+    "jet": True,
+    "widebody": False,
+    "regional": False
+   },
+   {
+    "iata": "320",
+    "name": "Airbus A320",
+    "turboProp": False,
+    "jet": True,
+    "widebody": False,
+    "regional": False
+   },
+   {
+    "iata": "321",
+    "name": "Airbus A321",
+    "turboProp": False,
+    "jet": True,
+    "widebody": False,
+    "regional": False
+   },
+   {
+    "iata": "32S",
+    "name": "Airbus A318 / A319 / A320 / A321",
+    "turboProp": False,
+    "jet": True,
+    "widebody": False,
+    "regional": False
+   },
+   {
+    "iata": "75W",
+    "name": "Boeing 757-200 (winglets) Passenger",
+    "turboProp": False,
+    "jet": True,
+    "widebody": False,
+    "regional": False
+   }
+  ]
+ }
+}
