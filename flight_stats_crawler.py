@@ -15,6 +15,8 @@ SCHEDULES = "schedules/rest/v1/json/to"
 APP_ID = "8146b8bf"
 APP_KEY = "c5a75fe109e3f3cb61a8789422d5b45e"
 
+# Yeah, yeah, we can use datetime delta method to see what the next date is,
+# but why complicate things when a simple solution is lurking around
 def month_map():
     return {
         1: 31,
