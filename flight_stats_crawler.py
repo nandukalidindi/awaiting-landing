@@ -58,7 +58,6 @@ def persist_flight_arrivals_for_a_month(airport, year, month):
     for day in range(0, month_map()[month]):
         persist_flight_arrivals_for_a_day(airport, year, month, day)
 
-
 def persist_flight_arrivals_for_a_day(airport, year, month, day):
     for hour in range(0, 24):
         get_flight_arrivals(airport, year, month, day, hour)
