@@ -3,10 +3,15 @@ import psycopg2
 from datetime import datetime
 import json
 
-HOST = "localhost"
-DATABASE = "revmax_development"
-USER = "nandukalidindi"
-PASSWORD = "qwerty123"
+HOST = "ec2-52-90-17-37.compute-1.amazonaws.com"
+DATABASE = "revmax_dev"
+USER = "dev_master"
+PASSWORD = "master01"
+
+# HOST = "localhost"
+# DATABASE = "revmax_development"
+# USER = "nandukalidindi"
+# PASSWORD = "qwerty123"
 
 AIRPORT_LIST = ['JFK', 'LGA', 'EWR']
 
@@ -54,13 +59,17 @@ def data_mapper():
 def build_flight_stat_url_for_particular_hour(airport, year, month, day, hour):
     return "%s/%s/%s/arriving/%s/%s/%s/%s?appId=%s&appKey=%s" % (FLIGHT_STATS_API, SCHEDULES, airport, year, month, day, hour, APP_ID, APP_KEY)
 
-def persist_flight_arrivals_for_a_month(airport, year, month):
-    for day in range(0, month_map()[month]):
-        persist_flight_arrivals_for_a_day(airport, year, month, day)
+def persist_flight_arrivals_for_month(airport, year, month):
+    print("FETCHING ARRIVALS AT FOR %s ON YEAR: %s AND MONTH: %s" % (airport, str(year), str(month)))
+    for day in range(1, month_map()[month]+1):
+        print("FETCHING ARRIVALS ON DAY " + str(day))
+        persist_flight_arrivals_for_day(airport, year, month, day)
 
-def persist_flight_arrivals_for_a_day(airport, year, month, day):
+def persist_flight_arrivals_for_day(airport, year, month, day):
     for hour in range(0, 24):
+        print("AT " + str(hour) + " HOUR")
         get_flight_arrivals(airport, year, month, day, hour)
+        pg_connection.commit()
 
 
 def get_flight_arrivals(airport, year, month, day, hour):
@@ -112,8 +121,6 @@ def persist_flight_arrival(response):
     formatter_list = ",".join(formatter_list)
     insert_sql = "INSERT INTO revmax_flight_arrival (" + sql_tuple[0] + ") VALUES (" + formatter_list + ")"
     values = sql_tuple[1]
-    print("INSERT SQL IS " + insert_sql)
-    print("VALUES ARE" + str(values))
     cursor.execute(insert_sql, values)
 
 
@@ -128,7 +135,11 @@ def postgres_connection():
 pg_connection = postgres_connection()
 cursor = pg_connection.cursor()
 
-# print(response)
-persist_flight_arrivals_for_a_day('JFK', 2017, 2, 14)
+for airport in AIRPORT_LIST:
+    persist_flight_arrivals_for_month(airport, 2017, 2)
+
+# CRAWLED COMPLETELY FOR JFK
+# CRAWLED FOR LGA ON 17th 17 Hour
+
 pg_connection.commit()
 pg_connection.close()
