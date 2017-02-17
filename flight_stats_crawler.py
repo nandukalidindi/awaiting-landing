@@ -1,3 +1,4 @@
+import sys
 import requests
 import psycopg2
 from datetime import datetime
@@ -17,8 +18,13 @@ AIRPORT_LIST = ['JFK', 'LGA', 'EWR']
 
 FLIGHT_STATS_API = "https://api.flightstats.com/flex"
 SCHEDULES = "schedules/rest/v1/json/to"
-APP_ID = "8146b8bf"
-APP_KEY = "c5a75fe109e3f3cb61a8789422d5b45e"
+# nkk263@nyu.edu
+# APP_ID = "8146b8bf"
+# APP_KEY = "c5a75fe109e3f3cb61a8789422d5b45e"
+
+# jonathan@eventflow.me
+APP_ID = "83044e6f"
+APP_KEY = "d69bf1d158ffe203fa0879108a8b2f71"
 
 # Yeah, yeah, we can use datetime delta method to see what the next date is,
 # but why complicate things when a simple solution is lurking around
@@ -74,11 +80,16 @@ def persist_flight_arrivals_for_day(airport, year, month, day):
 
 def get_flight_arrivals(airport, year, month, day, hour):
     full_response = requests.get(build_flight_stat_url_for_particular_hour(airport, year, month, day, hour)).json()
-    for scheduled_flight_response in full_response.get('scheduledFlights'):
-        scheduled_flight_response['flight_equipment_data'] = [x for x in full_response['appendix']['equipments'] if x['iata'] == scheduled_flight_response['flightEquipmentIataCode']][0]
-        scheduled_flight_response['flight_type'] = scheduled_flight_response['flight_equipment_data']['name']
-        scheduled_flight_response['flight_capacity'] = 10
-        persist_flight_arrival(scheduled_flight_response)
+    if len(full_response.get('scheduledFlights')) > 0:
+        for scheduled_flight_response in full_response.get('scheduledFlights'):
+            scheduled_flight_response['flight_equipment_data'] = [x for x in full_response['appendix']['equipments'] if x['iata'] == scheduled_flight_response['flightEquipmentIataCode']][0]
+            scheduled_flight_response['flight_type'] = scheduled_flight_response['flight_equipment_data']['name']
+            scheduled_flight_response['flight_capacity'] = 10
+            persist_flight_arrival(scheduled_flight_response)
+    else:
+        print("CRAWL WILL STOP NOW")
+        print("MAKE SURE NEXT CRAWL STARTS FOR AIRPORT: %s, FROM YEAR: %s, MONTH: %s, DAY: %s, HOUR: %s" % (airport, year, month, day, hour))
+        sys.exit("NO ARRIVAL SCHEDULES AVAILABLE")
 
 def prepare_SQL_statement(response):
     schema = data_mapper()
@@ -136,7 +147,10 @@ pg_connection = postgres_connection()
 cursor = pg_connection.cursor()
 
 for airport in AIRPORT_LIST:
-    persist_flight_arrivals_for_month(airport, 2017, 2)
+    persist_flight_arrivals_for_month(airport, 2017, 3)
+
+# ALSO 2017 - 04 - 1 : 19 threw error make sure you crawl them as well
+# MAKE SURE NEXT CRAWL STARTS FOR AIRPORT: JFK, FROM YEAR: 2017, MONTH: 3, DAY: 1, HOUR: 3
 
 # CRAWLED COMPLETELY FOR JFK
 # CRAWLED FOR LGA ON 17th 17 Hour
