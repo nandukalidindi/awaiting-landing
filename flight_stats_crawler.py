@@ -87,9 +87,12 @@ def get_flight_arrivals(airport, year, month, day, hour):
             scheduled_flight_response['flight_capacity'] = 10
             persist_flight_arrival(scheduled_flight_response)
     else:
-        print("CRAWL WILL STOP NOW")
-        print("MAKE SURE NEXT CRAWL STARTS FOR AIRPORT: %s, FROM YEAR: %s, MONTH: %s, DAY: %s, HOUR: %s" % (airport, year, month, day, hour))
-        sys.exit("NO ARRIVAL SCHEDULES AVAILABLE")
+        if full_response.get("error") and (full_response.get("error").get("httpStatusCode") == 403) and (full_response.get("error").get("errorCode") == "AUTH_FAILURE"):
+            print("CRAWL WILL STOP NOW")
+            print("MAKE SURE NEXT CRAWL STARTS FOR AIRPORT: %s, FROM YEAR: %s, MONTH: %s, DAY: %s, HOUR: %s" % (airport, year, month, day, hour))
+            sys.exit("NO ARRIVAL SCHEDULES AVAILABLE")
+        else:
+            print("NO ARRIVALS FOR AIRPORT: %s, ON YEAR: %s, MONTH: %s, DAY: %s, HOUR: %s" % (airport, year, month, day, hour))
 
 def prepare_SQL_statement(response):
     schema = data_mapper()
@@ -150,7 +153,6 @@ for airport in AIRPORT_LIST:
     persist_flight_arrivals_for_month(airport, 2017, 3)
 
 # ALSO 2017 - 04 - 1 : 19 threw error make sure you crawl them as well
-# MAKE SURE NEXT CRAWL STARTS FOR AIRPORT: JFK, FROM YEAR: 2017, MONTH: 3, DAY: 1, HOUR: 3
 
 # CRAWLED COMPLETELY FOR JFK
 # CRAWLED FOR LGA ON 17th 17 Hour
