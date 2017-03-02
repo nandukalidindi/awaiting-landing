@@ -9,20 +9,17 @@ DATABASE = "revmax_dev"
 USER = "dev_master"
 PASSWORD = "master01"
 
-# HOST = "localhost"
-# DATABASE = "revmax_development"
-# USER = "nandukalidindi"
-# PASSWORD = "qwerty123"
+HOST = "localhost"
+DATABASE = "revmax_development"
+USER = "nandukalidindi"
+PASSWORD = "qwerty123"
 
 AIRPORT_LIST = ['JFK', 'LGA', 'EWR']
 
 FLIGHT_STATS_API = "https://api.flightstats.com/flex"
 SCHEDULES = "schedules/rest/v1/json/to"
-# nkk263@nyu.edu
-# APP_ID = "8146b8bf"
-# APP_KEY = "c5a75fe109e3f3cb61a8789422d5b45e"
 
-# jonathan@eventflow.me
+# jonathan@revmax.io
 APP_ID = "83044e6f"
 APP_KEY = "d69bf1d158ffe203fa0879108a8b2f71"
 
@@ -82,10 +79,11 @@ def get_flight_arrivals(airport, year, month, day, hour):
     full_response = requests.get(build_flight_stat_url_for_particular_hour(airport, year, month, day, hour)).json()
     if len(full_response.get('scheduledFlights')) > 0:
         for scheduled_flight_response in full_response.get('scheduledFlights'):
-            scheduled_flight_response['flight_equipment_data'] = [x for x in full_response['appendix']['equipments'] if x['iata'] == scheduled_flight_response['flightEquipmentIataCode']][0]
-            scheduled_flight_response['flight_type'] = scheduled_flight_response['flight_equipment_data']['name']
-            scheduled_flight_response['flight_capacity'] = 10
-            persist_flight_arrival(scheduled_flight_response)
+            if scheduled_flight_response['isCodeshare'] == False:
+                scheduled_flight_response['flight_equipment_data'] = [x for x in full_response['appendix']['equipments'] if x['iata'] == scheduled_flight_response['flightEquipmentIataCode']][0]
+                scheduled_flight_response['flight_type'] = scheduled_flight_response['flight_equipment_data']['name']
+                scheduled_flight_response['flight_capacity'] = 10
+                persist_flight_arrival(scheduled_flight_response)
     else:
         if full_response.get("error") and (full_response.get("error").get("httpStatusCode") == 403) and (full_response.get("error").get("errorCode") == "AUTH_FAILURE"):
             print("CRAWL WILL STOP NOW")
@@ -149,13 +147,10 @@ def postgres_connection():
 pg_connection = postgres_connection()
 cursor = pg_connection.cursor()
 
-for airport in AIRPORT_LIST:
-    persist_flight_arrivals_for_month(airport, 2017, 3)
+# for airport in AIRPORT_LIST:
+#     persist_flight_arrivals_for_month(airport, 2017, 3)
 
-# ALSO 2017 - 04 - 1 : 19 threw error make sure you crawl them as well
-
-# CRAWLED COMPLETELY FOR JFK
-# CRAWLED FOR LGA ON 17th 17 Hour
+persist_flight_arrivals_for_day('JFK', 2017, 3, 1)
 
 pg_connection.commit()
 pg_connection.close()
