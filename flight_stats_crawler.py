@@ -19,9 +19,6 @@ AIRPORT_LIST = ['JFK', 'LGA', 'EWR']
 FLIGHT_STATS_API = "https://api.flightstats.com/flex"
 SCHEDULES = "schedules/rest/v1/json/to"
 
-# jonathan@revmax.io
-APP_ID = "83044e6f"
-APP_KEY = "d69bf1d158ffe203fa0879108a8b2f71"
 
 # Yeah, yeah, we can use datetime delta method to see what the next date is,
 # but why complicate things when a simple solution is lurking around
